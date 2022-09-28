@@ -31,9 +31,12 @@ hr {
 
 /*links*/
 
-.links {
+.link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .link-primary {
@@ -160,6 +163,11 @@ blockquote {
 
 .footer .link {
     color: cornsilk;
+}
+
+.footer .footerheader {
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .footer ul {
