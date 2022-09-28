@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 :root {
     --primary-color: #7F1D1D;
-    --dark-blue: #3B82F6;
-    --off-white: #F3F4F6;
     --secondary-color: blanchedalmond;
+    --yellow: #f99716;
+    --off-white: #F3F4F6;
+    ;
 }
 
 body {
@@ -84,4 +85,83 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+
+/*header*/
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-image {
+    margin: auto;
+    max-width: 350px;
+    display: block;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    color: var(--yellow);
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+
+/*blockquote*/
+
+.blockquote {
+    margin: 0;
+}
+
+blockquote {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote {
+    content: '\201C';
+}
+
+blockquote {
+    content: '\201D';
+}
+
+
+/*section*/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem 0rem;
+    color: var(--secondary-color);
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: cornsilk;
+}
+
+.footer ul {
+    padding-inline-start: 0px
 }
