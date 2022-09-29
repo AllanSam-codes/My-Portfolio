@@ -37,6 +37,7 @@ hr {
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-right: 0.5rem;
 }
 
 .link-primary {
@@ -95,6 +96,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-image {
@@ -156,13 +158,13 @@ blockquote {
 .footer {
     background-color: var(--primary-color);
     text-align: center;
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     color: var(--secondary-color);
     border-top-right-radius: 1rem;
 }
 
 .footer .link {
-    color: cornsilk;
+    color: #fff8dc;
 }
 
 .footer .footerheader {
@@ -173,3 +175,8 @@ blockquote {
 .footer ul {
     padding-inline-start: 0px
 }
+
+
+/*spaces*/
+
+margin-md {}
