@@ -77,7 +77,8 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    font-family: Display fonts;
 }
 
 .navigation .nav-pills {
